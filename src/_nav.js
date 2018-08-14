@@ -1,6 +1,7 @@
 export default {
   items: [
-    {
+    //{
+      /*
       name: 'Dashboard',
       url: '/dashboard',
       icon: 'icon-speedometer',
@@ -8,8 +9,30 @@ export default {
         variant: 'info',
         text: 'NEW',
       },
-    },
+    */
+   //},
     {
+      name: 'NodeRED',
+      url: '/pages/NodeRED',
+      icon: 'icon-list',
+      badge: {
+        variant: 'info',
+        text: 'NEW',
+      },
+    },
+
+    {
+      name: 'Docker',
+      url: '/pages/Docker',
+      icon: 'icon-screen-desktop',
+      badge: {
+        variant: 'info',
+        text: 'NEW',
+      },
+    },
+    
+    //{
+      /*
       title: true,
       name: 'Theme',
       wrapper: {            // optional wrapper object
@@ -267,6 +290,7 @@ export default {
       url: 'http://coreui.io/pro/react/',
       icon: 'icon-layers',
       variant: 'danger',
-    },
+    */
+   //},
   ],
 };
